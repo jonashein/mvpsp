@@ -1,6 +1,6 @@
-# Nerfies
+# Next-generation Surgical Navigation: Marker-less Multi-view 6DoF Pose Estimation of Surgical Instruments
 
-This repository contains the source code for our [Multi-View Pedicle Screw Placement Project Page](https://jonashein.github.io/mvpsp/).
+This repository contains the source code for our [Project Page](https://jonashein.github.io/mvpsp/).
 
 If you find our work useful please cite:
 ```
