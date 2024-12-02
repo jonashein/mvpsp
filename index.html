@@ -159,38 +159,18 @@
                 <h2 class="title is-3">Abstract</h2>
                 <div class="content has-text-justified">
                     <p>
-                        State-of-the-art research of traditional computer vision is increasingly leveraged in the
-                        surgical domain.
-                        A particular focus in computer-assisted surgery is to replace marker-based tracking systems for
-                        instrument
-                        localization with pure image-based 6DoF pose estimation using deep-learning methods.
-                        However, state-of-the-art single-view pose estimation methods do not yet meet the accuracy
-                        required for surgical navigation.
-                        In this context, we investigate the benefits of multi-view setups for highly accurate and
-                        occlusion-robust
-                        6DoF pose estimation of surgical instruments and derive recommendations for an ideal camera
-                        system that
-                        addresses the challenges in the operating room.
+                        State-of-the-art research of traditional computer vision is increasingly leveraged in the surgical domain.
+                        A particular focus in computer-assisted surgery is to replace marker-based tracking systems for instrument localization with pure image-based 6DoF pose estimation using deep-learning methods.
+                        However, state-of-the-art single-view pose estimation methods do not yet meet the accuracy required for surgical navigation.
+                        In this context, we investigate the benefits of multi-view setups for highly accurate and occlusion-robust 6DoF pose estimation of surgical instruments and derive recommendations for an ideal camera system that addresses the challenges in the operating room.
                     </p>
                     <p>
-                        The contributions of this work are threefold.
+                        Our contributions are threefold.
 
-                        First, we present a multi-camera capture setup consisting of static and head-mounted cameras,
-                        which allows us to study the performance of pose estimation methods under various camera
-                        configurations.
-                        Second, we publish a multi-view RGB-D video dataset of ex-vivo spine surgeries,
-                        captured in a surgical wet lab and a real operating theatre and including rich annotations for
-                        surgeon,
-                        instrument, and patient anatomy.
-                        Third, we evaluate three state-of-the-art single-view and multi-view methods for the task of
-                        6DoF pose estimation of surgical instruments and analyze the influence of camera configurations,
-                        training data, and occlusions on the pose accuracy and generalization ability.
-                        The best method utilizes five cameras in a multi-view pose optimization and achieves an average
-                        position
-                        and orientation error of 1.01 mm and 0.89° for a surgical drill as well as 2.79 mm
-                        and 3.33° for a screwdriver under optimal conditions.
-                        Our results demonstrate that marker-less tracking of surgical instruments is becoming a
-                        feasible alternative to existing marker-based systems.
+                        First, we present a multi-view RGB-D video dataset of ex-vivo spine surgeries, captured with static and head-mounted cameras and including rich annotations for surgeon, instruments, and patient anatomy.
+                        Second, we perform an extensive evaluation of three state-of-the-art single-view and multi-view pose estimation methods, analyzing the impact of camera quantities and positioning, limited real-world data, and static, hybrid, or fully mobile camera setups on the pose accuracy, occlusion robustness, and generalizability.
+                        Third, we design a multi-camera system for marker-less surgical instrument tracking, achieving an average position error of 1.01 mm and orientation error of 0.89° for a surgical drill, and 2.79 mm and 3.33° for a screwdriver under optimal conditions.
+                        Our results demonstrate that marker-less tracking of surgical instruments is becoming a feasible alternative to existing marker-based systems.
                     </p>
                 </div>
             </div>
@@ -201,7 +181,7 @@
         <div class="columns is-centered has-text-centered">
             <div class="column is-four-fifths">
                 <h2 class="title is-3">Dataset</h2>
-                <p>The dataset will be available here soon.</p>
+                <p>We provide download and visualization scripts, and a Python wrapper for our dataset on Github: <a href="https://github.com/jonashein/mvpsp_dataset">https://github.com/jonashein/mvpsp_dataset</a></p>
             </div>
         </div>
         <!--/ Dataset -->
